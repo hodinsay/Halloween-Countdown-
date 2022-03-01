@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+     background-image: url(https://4.bp.blogspot.com/-uwSlczkhepw/XMmyWB42tLI/AAAAAAAACGI/QQU-_q3fCeECeLIl4KS4vPx9Dl5NOts2wCKgBGAs/w0/doctor-strange-uhdpaper.com-4K-211.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     min-height: 100vh;
+     margin: 2rem;
+     font-family: "Creepster", sans-serif;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-end;
+}
+
+.countdown-container {
+     display: flex;
+     flex-wrap: wrap;
+}
+
+h1 {
+     font-weight: normal;
+     font-size: 4rem;
+     margin-bottom: 2rem;
+     color: #FC4C02;
+}
+
+.big-text {
+     font-weight: bold;
+     font-size: 6rem;
+     line-height: 1;
+     margin: 1rem 2rem;
+     color: orange;
+}
+
+.countdown-el {
+     text-align: center;
+     color: #FC4C02;
+}
+
+.countdown-el span {
+     font-size: 1.3rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
